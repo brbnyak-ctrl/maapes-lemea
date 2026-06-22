@@ -16,7 +16,7 @@ export default function Hero() {
 
           <p className="hero-sub">
             ליווי אישי וסבלני שבונה את הביטחון של הילד צעד אחר צעד. אני צעיר,
-            עברתי בעצמי את אותו חומר ואת אותם מבחנים לא מזמן — ואני יודע להסביר
+            עברתי בעצמי את אותו חומר ואת אותם מבחנים לא מזמן, ואני יודע להסביר
             את זה בשפה שילדים באמת מתחברים אליה. בלי לחץ, בלי בושה משאלות.
           </p>
 
@@ -53,61 +53,47 @@ export default function Hero() {
         <div className="hero-visual reveal">
           <div className="hero-card">
             <div className="hero-card-head">
-              <strong>מסלול ההתקדמות</strong>
-              <span className="tag">דוגמה</span>
+              <strong>ככה נראה שיעור</strong>
+              <span className="tag">צעד אחר צעד</span>
             </div>
 
-            <div className="progress-rings">
-              <div className="ring">
-                <span className="big">62</span>
-                <span className="small">נקודת פתיחה</span>
-              </div>
-              <div className="ring">
-                <span className="big">84</span>
-                <span className="small">אחרי חודשיים</span>
-              </div>
-              <div className="ring">
-                <span className="big">95</span>
-                <span className="small">יעד</span>
-              </div>
-            </div>
-
-            <div className="hero-bars">
-              <div className="bar-row">
-                <div className="bar-label">
-                  <span>שברים ואחוזים</span>
-                  <span>90%</span>
+            <ul className="lesson-list">
+              <li className="lesson-item">
+                <span className="li-check">1</span>
+                <div className="li-text">
+                  <strong>מתחילים מאיפה שנתקעת</strong>
+                  <span>בלי לדלג על פערים מהעבר</span>
                 </div>
-                <div className="bar-track">
-                  <div className="bar-fill" style={{ width: '90%' }} />
+              </li>
+              <li className="lesson-item">
+                <span className="li-check">2</span>
+                <div className="li-text">
+                  <strong>מבינים את הרעיון</strong>
+                  <span>לא משננים נוסחאות בעל פה</span>
                 </div>
-              </div>
-              <div className="bar-row">
-                <div className="bar-label">
-                  <span>גאומטריה</span>
-                  <span>78%</span>
+              </li>
+              <li className="lesson-item">
+                <span className="li-check">3</span>
+                <div className="li-text">
+                  <strong>מתרגלים יחד</strong>
+                  <span>עד שזה מרגיש ברור</span>
                 </div>
-                <div className="bar-track">
-                  <div className="bar-fill" style={{ width: '78%' }} />
+              </li>
+              <li className="lesson-item">
+                <span className="li-check">✓</span>
+                <div className="li-text">
+                  <strong>פותרים לבד, בביטחון</strong>
+                  <span>וזאת המטרה האמיתית</span>
                 </div>
-              </div>
-              <div className="bar-row">
-                <div className="bar-label">
-                  <span>ביטחון עצמי במבחנים</span>
-                  <span>96%</span>
-                </div>
-                <div className="bar-track">
-                  <div className="bar-fill" style={{ width: '96%' }} />
-                </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
 
           <div className="hero-float">
             <span className="ic">🎯</span>
             <div>
               <div className="t1">תוכנית אישית</div>
-              <div className="t2">בנויה לפי הקצב של הילד</div>
+              <div className="t2">בנויה לפי הקצב שלך</div>
             </div>
           </div>
         </div>

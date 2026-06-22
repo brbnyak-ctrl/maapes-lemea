@@ -20,7 +20,7 @@ export default function AreaMap() {
         {/* תוכן */}
         <div className="area-content reveal">
           <span className="eyebrow">אזורי שירות</span>
-          <h2>פרונטלי בתל אביב — ואונליין מכל מקום</h2>
+          <h2>פרונטלי בתל אביב, ואונליין מכל מקום</h2>
           <p>
             את השיעורים הפרונטליים אני מעביר בתל אביב והסביבה הקרובה, ברדיוס
             של כ-3 ק"מ, כדי שאוכל להגיע בקלות ובזמן ולהשקיע את כל האנרגיה
@@ -38,7 +38,7 @@ export default function AreaMap() {
               <span className="ic">💻</span>
               <div>
                 <strong>שיעורים אונליין</strong>
-                <span>מכל מקום בארץ — נוח, יעיל ובדיוק כמו פרונטלי</span>
+                <span>מכל מקום בארץ, נוח ויעיל בדיוק כמו פרונטלי</span>
               </div>
             </li>
           </ul>

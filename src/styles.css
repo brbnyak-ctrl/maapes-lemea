@@ -405,54 +405,69 @@ button {
   letter-spacing: 0.08em;
 }
 
-.progress-rings {
+/* Hero card — "ככה נראה שיעור" lesson steps */
+.lesson-list {
+  list-style: none;
+  position: relative;
+  display: grid;
+  gap: 4px;
+}
+
+.lesson-item {
+  position: relative;
   display: flex;
+  align-items: flex-start;
   gap: 14px;
-  margin-bottom: 28px;
+  padding: 11px 0;
 }
 
-.ring {
-  flex: 1;
-  text-align: center;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 16px 8px;
+/* קו מחבר אנכי בין הצעדים (תחושת התקדמות) */
+.lesson-item:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 16px;
+  top: 44px;
+  bottom: -7px;
+  width: 2px;
+  background: var(--accent-border);
 }
 
-.ring .big {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--accent);
-}
-
-.ring .small {
-  font-size: 0.74rem;
-  color: var(--text-dim);
-}
-
-.hero-bars { display: grid; gap: 16px; }
-
-.bar-row .bar-label {
+.li-check {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  color: var(--accent-strong);
   display: flex;
-  justify-content: space-between;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin-bottom: 7px;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
-.bar-track {
-  height: 9px;
-  border-radius: 999px;
-  background: var(--bg);
-  overflow: hidden;
+.lesson-item:last-child .li-check {
+  background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+  border-color: transparent;
+  color: #20160a;
 }
 
-.bar-fill {
-  height: 100%;
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+.li-text { padding-top: 2px; }
+
+.li-text strong {
+  display: block;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.li-text span {
+  font-size: 0.84rem;
+  color: var(--text-dim);
 }
 
 .hero-float {
