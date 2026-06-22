@@ -1300,4 +1300,5 @@ button {
   .logo-word { font-size: 1.05rem; }
   .hero-badge { font-size: 0.78rem; }
   .radar { width: 280px; height: 280px; }
+  .nav-cta { padding: 8px 13px; font-size: 0.8rem; }
 }

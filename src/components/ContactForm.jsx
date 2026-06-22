@@ -145,10 +145,10 @@ export default function ContactForm() {
       <div className="container">
         <div className="section-head reveal">
           <span className="eyebrow">בואו נתחיל</span>
-          <h2 className="section-title">תיאום שיחת היכרות</h2>
+          <h2 className="section-title">בואו נחזיר לילד את הביטחון בחשבון</h2>
           <p className="section-sub">
-            כמה פרטים קצרים, ובלחיצת כפתור הם נשלחים אליי ישירות בוואטסאפ.
-            אחזור אליכם בהקדם לתיאום שיחה קצרה וחינמית, בלי שום התחייבות.
+            השאירו פרטים קצרים, ואחזור אליכם בהקדם לשיחת ייעוץ (ללא שום
+            התחייבות), שבה נבין איפה הילד עומד ואיך אפשר לעזור לו כבר מהשבוע.
           </p>
         </div>
 
