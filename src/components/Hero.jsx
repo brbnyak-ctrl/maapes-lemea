@@ -10,7 +10,7 @@ export default function Hero() {
           </span>
 
           <h1>
-            ממתמטיקה שמלחיצה — <br />
+            ממתמטיקה שמלחיצה, <br />
             <span className="accent">להצלחה שמרגישים.</span>
           </h1>
 
