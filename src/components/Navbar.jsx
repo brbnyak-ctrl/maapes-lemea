@@ -13,7 +13,7 @@ export default function Navbar({ scrolled }) {
           <a href="#how">איך זה עובד</a>
           <a href="#area">אזורי שירות</a>
           <a href="#contact" className="btn btn-primary nav-cta">
-            לבדיקת התאמה
+            בדיקת התאמה
           </a>
         </div>
       </div>

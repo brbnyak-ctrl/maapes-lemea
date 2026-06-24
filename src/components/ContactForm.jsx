@@ -145,10 +145,10 @@ export default function ContactForm() {
       <div className="container">
         <div className="section-head reveal">
           <span className="eyebrow">בואו נתחיל</span>
-          <h2 className="section-title">בואו נחזיר לילד את הביטחון בחשבון</h2>
+          <h2 className="section-title">אל תחכו לספטמבר כשהלחץ יתחיל</h2>
           <p className="section-sub">
-            השאירו פרטים קצרים, ואחזור אליכם בהקדם לשיחת ייעוץ (ללא שום
-            התחייבות), שבה נבין איפה הילד עומד ואיך אפשר לעזור לו כבר מהשבוע.
+            השאירו פרטים קצרים, ננצל את החופש הגדול כדי לסגור לילד פערים, ונכין
+            אותו לשנה הבאה בראש שקט ובביטחון מלא.
           </p>
         </div>
 
