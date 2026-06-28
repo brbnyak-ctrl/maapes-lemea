@@ -42,8 +42,10 @@ export default function Hero() {
                 <div className="label">שיעור אישי לכל תלמיד</div>
               </div>
               <div className="hero-stat">
-                <div className="num">חינם</div>
-                <div className="label">שיחת היכרות ראשונה</div>
+                <div className="num">
+                  <span className="accent">50%</span>
+                </div>
+                <div className="label">הנחה על שיעור ראשון</div>
               </div>
               <div className="hero-stat">
                 <div className="num">
