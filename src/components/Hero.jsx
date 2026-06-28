@@ -10,7 +10,7 @@ export default function Hero() {
           </span>
 
           <h1>
-            במקום עוד שעה מול המסך – <br />
+            במקום עוד שעה מול המסך <br />
             <span className="accent">שעה שתקפיץ אותו במתמטיקה.</span>
           </h1>
         </div>
